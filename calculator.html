@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-section">
+            <div class="header-title">Yashwanth's Events And Time Management</div>
+            <!-- <img src="images/small-picture.jpeg" alt="Yashwanth's Picture" class="header-image"> -->
+        </div>
+        <div class="navbar">
+            <ul class="navbar-menu">
+                <!-- <li><a href="#alarm">Online Alarm Clock</a></li> -->
+                <li><a href="#stopwatch">Online Stopwatch</a></li>
+                <li><a href="#timer">Online Timer</a></li>
+                <li><a href="#stopwatch">Event Countdown</a></li>
+            </ul>
+        </div>
+        <div id="calculator">
+            <h2>Date Calculator</h2>
+            <div class="input-group">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date">
+            </div>
+            <div class="input-group">
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date">
+            </div>
+            <div class="input-group">
+                <label for="days-to-add">Add Days:</label>
+                <input type="number" id="days-to-add" placeholder="Days to add">
+            </div>
+            <div class="input-group">
+                <label for="days-to-subtract">Subtract Days:</label>
+                <input type="number" id="days-to-subtract" placeholder="Days to subtract">
+            </div>
+            <button id="calculate">Calculate</button>
+            <div id="results">
+                <p id="count-days">Count Days: </p>
+                <p id="add-days">Date After Adding Days: </p>
+                <p id="subtract-days">Date After Subtracting Days: </p>
+                <p id="duration">Duration: </p>
+            </div>
+        </div>
+        <div class="scroll-to-top">
+            <button id="scroll-to-top" title="Scroll to Top">&#8679;</button>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
