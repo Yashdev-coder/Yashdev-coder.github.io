@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Stopwatch</title>
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-section">
+            <div class="header-title">Yashwanth's Events And Time Management</div>
+            <!-- Uncomment the next line if you have a small picture to include -->
+            <!-- <img src="images/small-picture.jpeg" alt="Yashwanth's Picture" class="header-image"> -->
+        </div>
+        <div class="navbar">
+            <ul class="navbar-menu">
+                <!-- <li><a href="#alarm">Online Alarm Clock</a></li> -->
+                 <li><a href="index.html">Event Countdown</a></li>
+            <li><a href="timer.html">Online Timer</a></li>
+            <li><a href="calculator.html">Date Calculator</a></li>
+            </ul>
+        </div>
+        <div id="stopwatch">
+            <h2>Stopwatch</h2>
+            <div id="time">
+                <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+            </div>
+            <div id="controls">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+    <!-- Scroll to Top Button --> 
+    <button id="scroll-to-top" title="Scroll to Top">&#8679;</button>
+    <script src="stopwatch.js"></script>
+</body>
+</html>
